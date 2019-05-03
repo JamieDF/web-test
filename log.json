@@ -1,0 +1,17 @@
+[
+    {
+        "time" : "08:00",
+        "tom moisture" : 40,
+        "ketchup moisture" : 50
+    }, 
+    {
+        "time" : "08:30",
+        "tom moisture" : 43,
+        "ketchup moisture" : 65
+    },
+    {
+        "time" : "09:00",
+        "tom moisture" : 20,
+        "ketchup moisture" : 30
+    }
+]
