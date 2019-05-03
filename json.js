@@ -4,7 +4,6 @@ $().ready(function(){
     $.getJSON( "/log.json", function( data ) {
     console.log(data);
 
-
       timeData;
       moistureData;
 
