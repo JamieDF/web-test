@@ -4,8 +4,8 @@ $().ready(function(){
     $.getJSON( "/log.json", function( data ) {
     console.log(data);
 
-      timeData;
-      moistureData;
+      var timeData;
+      var moistureData;
 
       for (i = 0; i < data.length; i++) { 
         timeData.push(data[i]['time'])
