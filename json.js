@@ -23,6 +23,7 @@ $().ready(function(){
            datasets: [{
               label: 'moisture %',
               data: moistureData}]
+      }
       });
 
     //$("#text").html(data["text"]);
