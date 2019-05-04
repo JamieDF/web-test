@@ -18,8 +18,9 @@ $().ready(function(){
     var ctx = document.getElementById('myChart');
     var myLineChart = new Chart(ctx, {
       type: 'line',
-      data: timeData,
-      options: moistureData
+      data: {
+           labels: timeData,
+           datasets: moistureData}
       });
 
     //$("#text").html(data["text"]);
