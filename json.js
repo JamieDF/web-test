@@ -12,6 +12,8 @@ $().ready(function(){
         moistureData.push(data[i]['ketchup moisture'])
       }
 
+    console.log(timeData)
+    console.log(moistureData)
 
     var ctx = document.getElementById('myChart');
     var myLineChart = new Chart(ctx, {
