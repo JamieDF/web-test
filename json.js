@@ -20,7 +20,9 @@ $().ready(function(){
       type: 'line',
       data: {
            labels: timeData,
-           datasets: moistureData}
+           datasets: [{
+              label: 'moisture %',
+              data: moistureData}]
       });
 
     //$("#text").html(data["text"]);
