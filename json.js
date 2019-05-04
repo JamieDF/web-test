@@ -6,10 +6,12 @@ $().ready(function(){
 
       var timeData = [];
       var moistureData = [];
+      var moistureData2 = [];
 
       for (i = 0; i < data.length; i++) { 
-        timeData.push(data[i]['time'])
-        moistureData.push(data[i]['ketchup moisture'])
+        timeData.push(data[i]['Time'])
+        moistureData.push(data[i]['Ketchups soil moisture'])
+        moistureData2.push(data[i]['Toms soil moisture'])
       }
 
     console.log(timeData)
@@ -21,8 +23,11 @@ $().ready(function(){
       data: {
            labels: timeData,
            datasets: [{
-              label: 'moisture %',
-              data: moistureData}]
+              label: 'Ketchups soil moisture %',
+              data: moistureData},
+                     {
+              label: 'Toms soil moisture %',
+              data: moistureData2}]
       },
         options: {
         scales: {
