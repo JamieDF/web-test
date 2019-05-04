@@ -36,8 +36,8 @@ $().ready(function(){
     }
       });
 
-myLineChart.canvas.parentNode.style.height = '50%';
-myLineChart.canvas.parentNode.style.width = '50%';
+myLineChart.canvas.parentNode.style.height = '30%';
+myLineChart.canvas.parentNode.style.width = '70%';
         
     //$("#text").html(data["text"]);
   });
