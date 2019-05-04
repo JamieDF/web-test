@@ -23,7 +23,16 @@ $().ready(function(){
            datasets: [{
               label: 'moisture %',
               data: moistureData}]
-      }
+      },
+        options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
       });
 
     //$("#text").html(data["text"]);
