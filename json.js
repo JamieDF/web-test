@@ -24,7 +24,8 @@ $().ready(function(){
            labels: timeData,
            datasets: [{
               label: 'Ketchups soil moisture %',
-              data: moistureData},
+              data: moistureData,
+              backgroundColor: 'rgba(255, 0, 255, 0.2)'},
                      {
               label: 'Toms soil moisture %',
               data: moistureData2}]
