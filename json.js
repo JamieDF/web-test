@@ -25,10 +25,13 @@ $().ready(function(){
            datasets: [{
               label: 'Ketchups soil moisture %',
               data: moistureData,
-              backgroundColor: 'rgba(255, 0, 255, 0.2)'},
+              backgroundColor: 'rgba(255, 0, 0, 0.2)',
+              fill: false},
                      {
               label: 'Toms soil moisture %',
-              data: moistureData2}]
+              data: moistureData2,
+              backgroundColor: 'rgba(0, 255, 0, 0.2)',
+              fill: false}]
       },
         options: {
         scales: {
