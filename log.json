@@ -12938,5 +12938,15 @@
     "Time": "2019-07-21 11:30:17",
     "Toms soil moisture": "85",
     "Ketchups soil moisture": "100"
+  },
+  {
+    "Time": "2019-07-21 12:00:33",
+    "Toms soil moisture": "85",
+    "Ketchups soil moisture": "100"
+  },
+  {
+    "Time": "2019-07-21 12:30:35",
+    "Toms soil moisture": "84",
+    "Ketchups soil moisture": "100"
   }
 ]
