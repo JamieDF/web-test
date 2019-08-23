@@ -1,7 +1,12 @@
 [
   {
-    "Time": "Sat Aug 24 00:09:32 2019",
     "Ketchups soil moisture": "11",
-    "Toms soil moisture": "25"
+    "Toms soil moisture": "25",
+    "Time": "Sat Aug 24 00:09:32 2019"
+  },
+  {
+    "Ketchups soil moisture": "26",
+    "Toms soil moisture": "25",
+    "Time": "Sat Aug 24 00:15:01 2019"
   }
 ]
